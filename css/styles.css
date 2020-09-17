@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: 'Source Serif Pro', serif;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66BFBF;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+p {
+    color: #40514E;
+    line-height: 2;
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: #EAF6F6;
+    width: 5%;
+    margin: 100px auto;
+}
+
+/********************** Class Selectors ***************************/
+.top-container {
+    background-color: #eaf6f6;
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.profile .webDev .blogging {
+    border-radius: 100%;
+    
+}
+.bottom-container{
+    text-align: center;
+    background-color: #66BFBF;
+    padding: 10px 0;
+    margin: 50px auto auto auto;
+    padding-top : 30px;
+
+}
+.top-cloud{
+    position: absolute;
+    left: 60%;
+    top: 10%
+}
+.bottom-cloud {
+    position: absolute;
+    left: 30%
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    
+}
+.intro {
+    width: 30%;
+    margin: auto;
+}
+.skill-row p{ 
+   text-align: left;
+}
+.blogging{ 
+    width: 20%;
+    height: 25%;
+    float: right;
+    margin: 20px 10px 5px 0;
+}
+
+.webDev{ 
+    width: 20%;
+    height: 25%;
+    float: left;
+    margin-right: 20px;
+}
+.ContactMe {
+    border-radius: 13px;
+    color: #FFFFFF;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 13px;
+    background-color: #66BFBF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 30px 20px 20px 20px;
+ }
+ .footer-link{
+     font-weight: bold;
+     font-size: 1rem;
+     text-decoration: none;
+ }
+ .footer-link:hover {
+    background-color: #eaf6f6
+ }
+ .copy-rights{
+     color: #EAF6F6;
+     padding: 20px auto;
+     font-size: 0.75rem;
+ }
+ .network-contact{
+     width: 30%;
+     margin: auto;   
+ }
